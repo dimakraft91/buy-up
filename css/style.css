@@ -315,6 +315,9 @@ html {
   height: 21px;
 }
 
+.third-child {
+  margin-top: 68px;
+}
 .third-child:after {
   background: url("../img/choice/choice-icon-3.png");
   width: 19px;
