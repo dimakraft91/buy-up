@@ -493,3 +493,9 @@ position: relative;
 	flex-direction: column;
 	justify-content: space-between;
 }
+
+@media screen and (max-width: 1225px) {
+	.talk .item__title p:before {
+		left: -50px;
+	}
+}
