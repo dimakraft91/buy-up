@@ -173,8 +173,8 @@ background: url("../img/grade/sidebar-left-bg.png") no-repeat;
 	&__left-img {}
 	&__left-bottom {
 		    position: relative;
-    left: -37px;
-    top: 37px;
+    left: -71px;
+    top: 34px;
 	}
 	&__left-btn {
 		border: 1px solid #000000;
@@ -188,7 +188,7 @@ text-align: center;
 letter-spacing: -0.02em;
 color: #3A3A3A;
 text-decoration: none;
-padding: 12px 54px;
+padding: 9px 70px 9px 64px;
 	}
 	&__right {
 		
@@ -394,7 +394,7 @@ line-height: 130%;
 text-align: center;
 letter-spacing: -0.02em;
 color: #3A3A3A;
-padding: 12px 66px;
+padding: 9px 66px;
 	}
 }
 
@@ -451,6 +451,7 @@ padding-right: 25px;
 	&__title {
 		padding-left: 18px;
 		padding-top: 8px;
+		padding-right: 25px;
 	}
 	&__rating {}
 	&__description {
@@ -484,4 +485,10 @@ position: relative;
 		position: absolute;
 		display: inline-block;
 		    left: -2px;;
+}
+
+.choice__left {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
