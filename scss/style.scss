@@ -1,0 +1,487 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+html {
+	font-size: 10px;
+}
+
+.container {
+	padding: 0 10.0rem;
+}
+
+.title {
+	font-family: "Bitter", serif;
+font-style: normal;
+font-weight: 500;
+font-size: 35px;
+text-transform: uppercase;
+color: #000000;
+margin-top: 40px;
+margin-bottom: 6px;
+}
+
+.description {
+	font-family: "Manrope", serif;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 130%;
+letter-spacing: -0.02em;
+color: #000000;
+    max-width: 300px;
+    margin-bottom: 30px;
+}
+
+.item-title {
+		font-family: 'Manrope';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+letter-spacing: -0.02em;
+color: #000000;
+    margin-bottom: 7px;
+}
+
+.item-description {
+		font-family: 'Manrope';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 130%;
+letter-spacing: -0.02em;
+color: #000000;
+    max-width: 181px;
+}
+
+.grade {
+	position: relative;
+	&:after {
+		content: "";
+		background: url("../img/grade/arrow-right.png");
+		width: 31px;
+		height: 31px;
+		position: absolute;
+		display: inline-block;
+		    right: 110px;
+    bottom: 325px;
+	}
+	&__container {}
+	&__top {
+		margin-top: 6rem;
+		background: #F7F7F7;
+border-radius: 20px;
+	}
+	&__sidebar {}
+	&__bottom {
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 70px;
+	}
+	&__bottom-item {
+		background: #F7F7F7;
+border-radius: 20px;
+width: calc(33.3% - 10px);
+    height: 163px;
+		&:last-child {
+			background-color: #FFE03C;
+		}
+	}
+	&__bottom-title {
+		padding-top: 34px;
+		padding-left: 34px;
+		font-family: 'Manrope';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+letter-spacing: -0.02em;
+color: #000000;
+    margin-bottom: 7px;
+	}
+	&__bottom-description {
+		padding-left: 34px;
+		font-family: 'Manrope';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 130%;
+letter-spacing: -0.02em;
+color: #000000;
+    max-width: 181px;
+	}
+	&__bottom-img {
+		    display: flex
+;
+    justify-content: flex-end;
+    margin-top: -23px;
+    // &:first-child {
+    // 	    margin-top: -45px;
+    // }
+    //  &:nth-child(2) {
+    // 	    margin-top: -24px;
+    // }
+    // &:last-child {
+    // 	    margin-top: -40px;
+    // }
+	}
+	&__bottom-image {}
+}
+.container {
+	position: relative;
+	
+}
+.sidebar {
+	&__item {
+		display: flex;
+		padding: 2.5rem 5.5rem;
+		margin-bottom: 20px;
+		
+	
+	}
+	&__left {
+		position: relative;
+		padding: 36px 72px;
+		margin-right: 16px;
+border-radius: 15px;
+background: url("../img/grade/sidebar-left-bg.png") no-repeat;
+		&:before {
+		content: "";
+		background: url("../img/grade/arrow-left.png");
+		width: 31px;
+		height: 31px;
+		position: absolute;
+		display: inline-block;
+		            left: -45px;
+    bottom: 115px;
+	}
+	
+	}
+	&__left-top {
+		position: relative;
+		&:after {
+		content: "";
+		background: url("../img/grade/sidebar-left-search.png");
+		width: 41px;
+		height: 41px;
+		position: absolute;
+		display: inline-block;
+		        right: -39px;
+    bottom: -18px;
+	}
+	}
+	&__left-img {}
+	&__left-bottom {
+		    position: relative;
+    left: -37px;
+    top: 37px;
+	}
+	&__left-btn {
+		border: 1px solid #000000;
+border-radius: 20px;
+background: transparent;
+font-family: "Manrope", serif;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+text-align: center;
+letter-spacing: -0.02em;
+color: #3A3A3A;
+text-decoration: none;
+padding: 12px 54px;
+	}
+	&__right {
+		
+	}
+	&__right-title {
+		font-family: "Bitter", serif;
+font-style: normal;
+font-weight: 500;
+font-size: 35px;
+text-transform: uppercase;
+color: #000000;
+margin-top: 40px;
+margin-bottom: 6px;
+	}
+	&__right-description {
+		font-family: "Manrope", serif;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 130%;
+letter-spacing: -0.02em;
+color: #000000;
+    max-width: 300px;
+    margin-bottom: 30px;
+	}
+	&__button {}
+	&__button-btn {
+		background: #FFE03C;
+border-radius: 15px;
+text-decoration: none;
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+text-align: center;
+letter-spacing: -0.02em;
+color: #2D2D2D;
+padding: 18px 86px;
+display: inline-block;
+	}
+}
+.bottom {
+}
+
+.grade__bottom-img {
+	position: relative;
+}
+
+.first__ch {
+	    top: -3px;
+    position: relative;
+}
+
+.second__ch {
+	    position: relative;
+    top: -24px;
+}
+
+.third__ch {
+	position: relative;
+	    top: -19px;
+}
+
+
+
+.choice {
+	background: #F3F3F3;
+	&__container {
+		display: flex;
+		justify-content: space-between;
+	}
+	&__block {}
+	&__top {}
+	&__title {
+		padding-top: 60px;
+		    margin-bottom: 5px;
+	}
+	&__description {
+		max-width: 335px;
+		margin-bottom: -11px;
+	}
+	&__bottom {
+		display: flex;
+	}
+	&__bottom-img {}
+}
+
+
+
+
+.choice {
+	&__right {
+		display: flex;
+	}
+	&__col {
+		    display: flex
+;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-right: 30px;
+    &:last-child {
+    	margin-right: 0;
+    }
+	}
+	&__item {
+		background: #FFFFFF;
+border-radius: 20px;
+padding: 7.0rem 6.4rem 2.6rem 3.4rem;
+position: relative;
+	&:after {
+		content: "";
+		background: url("../img/choice/choice-icon-1.png");
+		width: 24px;
+		height: 24px;
+		position: absolute;
+		display: inline-block;
+        right: 30px;
+        top: 26px;
+        &:nth-child(2) {
+		
+	}
+	}
+	&:first-child {
+		margin-bottom: 20px;
+	}
+
+	}
+	&__item-title {}
+	&__item-description {}
+}
+
+.last-child {
+	    border-radius: 20px 20px 0 0;
+	padding-bottom: 110px;
+}
+
+.second-child {
+	    border-radius: 20px 20px 0 0;
+	&:after {
+		background: url("../img/choice/choice-icon-2.png");
+		width: 25px;
+		height: 21px;
+	}
+}
+
+.third-child {
+	&:after {
+		background: url("../img/choice/choice-icon-3.png");
+		width: 19px;
+		height: 25px;
+	}
+}
+
+.last-child {
+	&:after {
+		background: url("../img/choice/choice-icon-4.png");
+		width: 27px;
+		height: 21px;
+	}
+}
+
+.arrow {
+	position: relative;
+
+}
+
+.talk {
+	&__container {}
+	&__block {
+		display: flex;
+		justify-content: space-between;
+	}
+	&__top {}
+	&__title {
+		margin-top: 135px;
+		position: relative;
+		&:after {
+		content: "";
+		background: url("../img/talk/ava-group.png");
+		width: 128px;
+		height: 46px;
+		position: absolute;
+		display: inline-block;
+        right: -162px;
+	}
+	}
+	&__description {
+		max-width: 420px;
+		margin-bottom: 37px;
+	}
+	&__right {
+		    margin-top: 148px;
+	}
+	&__btn {
+		border: 1px solid #000000;
+border-radius: 20px;
+text-decoration: none;
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 130%;
+text-align: center;
+letter-spacing: -0.02em;
+color: #3A3A3A;
+padding: 12px 66px;
+	}
+}
+
+
+
+
+.talk {
+	&__bottom {
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 60px;
+
+	}
+	&__bottom-item {
+		background: #F2F2F2;
+border-radius: 20px;
+width: calc(33.3% - 10px);
+padding-bottom: 25px;
+	}
+	&__bottom-link a {
+		font-family: 'Manrope';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+letter-spacing: -0.02em;
+text-decoration-line: underline;
+color: #000000;
+padding-left: 64px;
+margin-top: 17px;
+	}
+	.item__title {
+		font-family: "Inter", serif;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+letter-spacing: -0.02em;
+color: #1E1E1E;
+text-align: right;
+	}
+	.item__description {
+		font-family: 'Manrope';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 130%;
+letter-spacing: -0.02em;
+color: #000000;
+margin-bottom: 17px;
+max-width: 330px;
+padding-right: 25px;
+	}
+}
+.item {
+	&__title {
+		padding-left: 18px;
+		padding-top: 8px;
+	}
+	&__rating {}
+	&__description {
+		padding-left: 64px;
+		margin-top: 20px;
+	}
+}
+
+.talk__bottom-block {
+	padding-top: 30px;
+	padding-left: 64px;
+	display: flex;
+}
+
+.talk .item__title p {
+	font-family: 'Manrope';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+letter-spacing: -0.02em;
+color: #000000;
+margin-top: 5px;
+position: relative;
+}
+
+.talk .item__title p:before {
+	content: "";
+		background: url("../img/talk/star.png");
+		width: 110px;
+		height: 18px;
+		position: absolute;
+		display: inline-block;
+		    left: -2px;;
+}
