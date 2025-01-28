@@ -223,7 +223,14 @@ a {
   padding: 36px 72px;
   margin-right: 16px;
   border-radius: 15px;
-  background: url("../img/grade/sidebar-left-bg.png") no-repeat;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 37px;
 }
 .sidebar__left:before {
   content: "";
@@ -234,19 +241,6 @@ a {
   display: inline-block;
   left: -45px;
   bottom: 115px;
-}
-.sidebar__left-top {
-  position: relative;
-}
-.sidebar__left-top:after {
-  content: "";
-  background: url("../img/grade/sidebar-left-search.png");
-  width: 41px;
-  height: 41px;
-  position: absolute;
-  display: inline-block;
-  right: -36px;
-  bottom: -22px;
 }
 .sidebar__left-bottom {
   position: relative;

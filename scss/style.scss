@@ -224,7 +224,11 @@ color: #000000;
 		padding: 36px 72px;
 		margin-right: 16px;
 border-radius: 15px;
-background: url("../img/grade/sidebar-left-bg.png") no-repeat;
+background-color: #fff;
+    display: flex
+;
+    align-items: center;
+    margin-right: 37px;
 		&:before {
 		content: "";
 		background: url("../img/grade/arrow-left.png");
@@ -238,17 +242,6 @@ background: url("../img/grade/sidebar-left-bg.png") no-repeat;
 	
 	}
 	&__left-top {
-		position: relative;
-		&:after {
-		content: "";
-		background: url("../img/grade/sidebar-left-search.png");
-		width: 41px;
-		height: 41px;
-		position: absolute;
-		display: inline-block;
-		    right: -36px;
-    bottom: -22px;
-	}
 	}
 	&__left-img {}
 	&__left-bottom {
