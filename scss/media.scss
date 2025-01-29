@@ -1,0 +1,68 @@
+@media screen and (max-width: 1280px) {
+	.header {
+		// header
+
+.header {
+	&__top {
+padding: calc(14 / 1280 * 100vw) calc(32 / 1280 * 100vw);
+	}
+	&__logo {
+		width: calc(72 / 1280 * 100vw);
+	}
+	&__top-nav {
+		margin-left: calc(45 / 1280 * 100vw);
+
+	}
+	&__top-item {
+		&:not(:last-child) {
+  margin-right: calc(30 / 1280 * 100vw);
+  }
+	}
+	&__top-link {
+font-size: calc(12 / 1280 * 100vw);
+	}
+	&__contacts-val {
+font-size: calc(12 / 1280 * 100vw);
+	}
+	&__contacts-social {
+		padding-left: calc(22 / 1280 * 100vw);
+		padding-right: calc(18 / 1280 * 100vw);
+	}
+	&__social-link {
+	&:first-child {
+		    margin-right: calc(6 / 1280 * 100vw);
+	}	
+	}
+	&__social-img {
+		width: calc(28 / 1280 * 100vw);
+height: calc(28 / 1280 * 100vw);
+	}
+	&__phone {
+font-size: calc(16 / 1280 * 100vw);
+}
+	&__bottom {
+padding: calc(6 / 1280 * 100vw) calc(32 / 1280 * 100vw);	
+	}
+	&__bottom-item {
+		&:not(:last-child) {
+  margin-right: calc(26 / 1280 * 100vw);
+  }
+	}
+	&__bottom-link {
+font-size: calc(12 / 1280 * 100vw);
+	}
+	&__right-btn {
+font-size: calc(14 / 1280 * 100vw);
+padding: calc(4 / 1280 * 100vw) calc(18 / 1280 * 100vw) calc(6 / 1280 * 100vw);
+margin-right: calc(8 / 1280 * 100vw);
+	}
+	&__right-link {
+		&:not(:last-child) {
+  margin-right: calc(8 / 1280 * 100vw);
+  }
+	}
+}
+
+// header
+	}
+}
