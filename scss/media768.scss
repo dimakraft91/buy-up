@@ -1,0 +1,188 @@
+@media screen and (max-width: 768px) {
+	// Общие стили
+
+	.container {
+		padding: 0 50px;
+	}
+
+	// Общие стили
+
+	// talk
+
+	.talk {}
+.talk__container {}
+.container {}
+.talk__block {}
+.block {}
+.talk__top {}
+.talk__title {
+	padding-top: 50px;
+	margin-top: 0;
+	&:after {
+		    right: -117px;
+	}
+}
+.title {}
+.talk__description {
+	margin-bottom: 21px;
+}
+.description {}
+.talk__right {}
+.talk__btn {}
+.btn {}
+.talk__bottom {
+	gap: 11px;
+}
+.talk__bottom-item {}
+.item {}
+.talk__bottom-block {}
+.talk__bottom-ava {}
+.item__title {}
+.item__bottom {}
+.item__raiting {}
+.item__raiting-img {
+		margin-right: calc(13 / 768 * 100vw);
+		width: calc(110 / 768 * 100vw);
+		height: calc(18 / 768 * 100vw);
+	}
+.item__raiting-text {}
+.dateDisplay {}
+.talk .item__description {
+	margin: 15px 0 24px 0;
+}
+.talk__bottom-link {}
+
+	.talk__bottom {
+		margin-bottom: 80px;
+	}
+
+	// talk
+
+	// process
+
+	.process {
+		padding-bottom: 80px;
+	}
+.process__container {}
+.container {}
+.process__title {
+	margin-bottom: 34px;
+}
+.title {}
+.process__step {}
+.process__step-number {}
+.process__bottom {}
+.bottom {}
+.process__item {}
+.process__item-title {}
+.item-title {}
+.process__item-description {}
+.item-description {}
+.process__item-btn {}
+.btn {}
+.process__item-social {}
+.item__social {}
+.item__social-link {}
+.item__social-img {}
+.item__social-text {
+	font-size: 12px;
+}
+
+	// process
+
+	// price
+
+	.price {
+		padding: 0 0 80px 0;
+	}
+
+	.price__container {}
+.container {}
+.price__wrap {}
+.price__left {
+	margin-right: 27px;
+}
+.price__img {}
+.price__right {
+	padding-bottom: 31px;
+}
+.price__title {
+	padding-top: 31px;
+}
+.title {}
+.price__description {}
+.description {}
+.price__form {}
+.form {}
+.price__input {}
+.input {}
+.price__btn {}
+.btn {}
+.price__social {}
+.price__social-link {}
+.price__social-img {}
+.price__social-text {}
+
+	// price
+
+	// faq
+
+	.faq {}
+.faq__container {}
+.container {}
+.faq__title {
+}
+.title {}
+.faq__row {
+	flex-direction: column;
+	padding-bottom: 50px;
+}
+.faq__col {
+	&:first-child .faq__item:last-child {
+		    border-bottom: 1px solid #DFDFDF;
+		        padding-bottom: 34px;
+		        margin-bottom: 30px;
+	}
+}
+
+.faq__item {
+}
+.faq__item-text {
+}
+
+	// faq
+
+	// company
+
+	.company {
+		padding-top: 80px;
+	}
+.company__container {}
+.container {}
+.company__left {
+	margin-right: 13px;
+}
+.company__img {}
+.company__right {}
+.company__top {
+	margin-bottom: 17px;
+}
+.company__title {}
+.title {}
+.company__block {}
+.company__block-item {
+
+}
+.company__description {}
+.description {}
+.company__bottom {
+	padding: 7px 64px 17px 50px;
+}
+.company__bottom-item {
+	padding: 0;
+}
+.company__bottom-number {}
+.company__bottom-description {}
+
+// company
+}

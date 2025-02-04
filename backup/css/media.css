@@ -1,0 +1,51 @@
+@media screen and (max-width: 1280px) {
+  .header .header__top {
+    padding: 1.09375vw 2.5vw;
+  }
+  .header .header__logo {
+    width: 5.625vw;
+  }
+  .header .header__top-nav {
+    margin-left: 3.515625vw;
+  }
+  .header .header__top-item:not(:last-child) {
+    margin-right: 2.34375vw;
+  }
+  .header .header__top-link {
+    font-size: 0.9375vw;
+  }
+  .header .header__contacts-val {
+    font-size: 0.9375vw;
+  }
+  .header .header__contacts-social {
+    padding-left: 1.71875vw;
+    padding-right: 1.40625vw;
+  }
+  .header .header__social-link:first-child {
+    margin-right: 0.46875vw;
+  }
+  .header .header__social-img {
+    width: 2.1875vw;
+    height: 2.1875vw;
+  }
+  .header .header__phone {
+    font-size: 1.25vw;
+  }
+  .header .header__bottom {
+    padding: 0.46875vw 2.5vw;
+  }
+  .header .header__bottom-item:not(:last-child) {
+    margin-right: 2.03125vw;
+  }
+  .header .header__bottom-link {
+    font-size: 0.9375vw;
+  }
+  .header .header__right-btn {
+    font-size: 1.09375vw;
+    padding: 0.3125vw 1.40625vw 0.46875vw;
+    margin-right: 0.625vw;
+  }
+  .header .header__right-link:not(:last-child) {
+    margin-right: 0.625vw;
+  }
+}
