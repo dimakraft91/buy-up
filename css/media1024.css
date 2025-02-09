@@ -1,3 +1,9 @@
+@media screen and (max-width: 595px) {
+  .company__bottom {
+    -ms-grid-columns: (1fr)[2];
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
 @media screen and (max-width: 1024px) {
   .container {
     padding: 0 70px;
@@ -5,8 +11,134 @@
   .title {
     font-size: 27px;
     margin-bottom: 10px;
+    padding-top: 50px;
   }
   .description {
+    font-size: 12px;
+  }
+  .header__container {
+    padding: 0 37px;
+  }
+  .header__logo-img {
+    width: 72px;
+  }
+  .header__contacts {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .header__contacts-social {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  .header__phone {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  .main {
+    padding-bottom: 47px;
+    overflow: hidden;
+  }
+  .main__title {
+    margin-top: 45px;
+    font-size: 37px;
+  }
+  .main__description {
+    margin-top: 16px;
+  }
+  .main__btn {
+    margin-bottom: 56px;
+    padding: 16px 53px;
+  }
+  .main__info-item:not(:last-child) {
+    margin-right: 33px;
+  }
+  .main__info-img {
+    margin-right: 10px;
+  }
+  .main__info-text {
+    font-size: 12px;
+  }
+  .main__right-img {
+    position: absolute;
+    top: -30%;
+    left: -20%;
+    width: clamp(28.125rem, -9.375rem + 78.13vw, 40.625rem);
+  }
+  .choice__title {
+    padding-top: 50px;
+    margin-bottom: 10px;
+  }
+  .choice__items {
+    gap: 10px;
+  }
+  .choice__item:after {
+    width: 40px;
+    height: 40px;
+    right: 14px;
+    top: 14px;
+    background-size: contain;
+  }
+  .choice__bottom-img {
+    max-width: 100%;
+    height: 100%;
+  }
+  .choice__item {
+    padding: 5.46875vw 2.24609375vw 2.24609375vw 2.24609375vw;
+  }
+  .choice__item-title {
+    font-size: 16px;
+  }
+  .choice__item-description {
+    font-size: 12px;
+  }
+  .grade__top {
+    margin-top: 50px;
+  }
+  .sidebar__item {
+    margin-bottom: 24px;
+    padding: 17px 39px;
+  }
+  .sidebar__left {
+    padding: 30px 46px;
+  }
+  .sidebar__left-img {
+    width: 210px;
+  }
+  .sidebar__right-title {
+    margin-bottom: 10px;
+    padding-top: 0;
+  }
+  .sidebar__right-description {
+    margin-bottom: 21px;
+  }
+  .sidebar__button-btn {
+    padding: 13px 46px;
+    font-size: 12px;
+  }
+  .grade__bottom {
+    margin-bottom: 60px;
+  }
+  .grade__bottom-item {
+    padding-top: 23px;
+    padding-left: 24px;
+  }
+  .grade__bottom-title {
+    font-size: 16px;
+  }
+  .grade__bottom-description {
+    padding-bottom: 37px;
     font-size: 12px;
   }
   .talk__title {
@@ -14,7 +146,7 @@
     margin-top: 0;
   }
   .talk__title:after {
-    right: -102px;
+    right: -162px;
   }
   .talk__description {
     margin-bottom: 28px;
@@ -50,6 +182,22 @@
   .talk__bottom {
     margin-bottom: 80px;
   }
+  .sale__title {
+    padding-top: 43px;
+    margin-bottom: 15px;
+  }
+  .sale__description {
+    margin-bottom: 28px;
+  }
+  .sale__bottom {
+    gap: 10px 7px;
+  }
+  .sale__item {
+    padding: 8px 23px;
+  }
+  .sale__btn {
+    padding: 11px 42px;
+  }
   .process {
     padding-bottom: 100px;
   }
@@ -62,10 +210,14 @@
   }
   .process__item-title {
     margin-bottom: 9px;
+    font-size: 16px;
+  }
+  .process__item-description {
+    font-size: 12px;
   }
   .process__item-btn {
-    font-size: 12px;
     padding: 12px 42px;
+    font-size: 12px;
   }
   .price {
     padding: 0 0 100px 0;
@@ -135,23 +287,128 @@
   .company {
     padding-top: 100px;
   }
+  .company__wrap {
+    gap: 17px 8px;
+  }
   .company__left {
-    margin-right: 8px;
+    grid-row: unset;
+  }
+  .company__right {
+    -webkit-box-orient: unset;
+    -webkit-box-direction: unset;
+        -ms-flex-direction: unset;
+            flex-direction: unset;
   }
   .company__title {
     margin-bottom: 14px;
   }
   .company__block {
     margin-bottom: 17px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 10px;
   }
   .company__block-item {
     font-size: 12px;
     padding: 5px 23px;
+  }
+  .company__bottom {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-column: 1/3;
   }
   .company__bottom-item {
     padding: 10px 0 16px 37px;
   }
   .company__bottom-number {
     font-size: 30px;
+  }
+  .services__title {
+    padding-top: 100px;
+    margin-bottom: 44px;
+  }
+  .services__top {
+    gap: 13px;
+  }
+  .services__item {
+    padding: 25px 16px 25px 19px;
+  }
+  .services__item-description {
+    font-size: 14px;
+  }
+  .services__bottom {
+    gap: 13px;
+  }
+  .services__bottom-title {
+    font-size: 35px;
+    padding-top: 0;
+  }
+  .services__bottom-description span {
+    font-size: 14px;
+  }
+  .news__description {
+    margin-bottom: 28px;
+  }
+  .news__bottom {
+    gap: 13px;
+    padding-bottom: 100px;
+  }
+  .find__wrap {
+    padding-top: 38px;
+  }
+  .find__left,
+  .find__right {
+    padding-bottom: 38px;
+  }
+  .find__left {
+    padding-right: clamp(1.875rem, -7.537rem + 19.61vw, 5rem);
+    padding-left: 47px;
+  }
+  .find__right {
+    -webkit-box-flex: 1;
+        -ms-flex: auto;
+            flex: auto;
+  }
+  .find__title {
+    padding-top: 10px;
+  }
+  .find__work-pass {
+    padding-bottom: 13px;
+    font-size: 12px;
+    line-height: 155%;
+    letter-spacing: -0.02em;
+  }
+  .find__form {
+    margin-top: 35px;
+  }
+  .find__input {
+    margin-bottom: 22px;
+    padding-right: 85px;
+  }
+  .find__btn {
+    padding: 11px 68px;
+  }
+  .find__map {
+    height: 100%;
+  }
+  .footer__right-up {
+    right: -40px;
+    padding-right: 18px;
+    padding-left: 18px;
+    font-size: 12px;
+  }
+  .footer__col-title {
+    margin-bottom: 18px;
+  }
+  .footer__col-link {
+    font-size: 12px;
+  }
+  .footer__bottom {
+    margin-top: 35px;
+  }
+  .footer__bottom > * {
+    font-size: 12px;
   }
 }
